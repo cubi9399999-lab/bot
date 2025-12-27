@@ -33,6 +33,13 @@ const withNextJsObfuscator = createNextJsObfuscator(
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // Enable static export for Netlify (uncomment if needed)
+    // output: 'export',
+    // trailingSlash: true,
+    // images: {
+    //     unoptimized: true,
+    // },
+
     webpack: (config) => {
         config.externals.push({
             'node:crypto': 'commonjs crypto',

@@ -4,6 +4,28 @@
 
 ---
 
+### 🚀 Deployment
+
+#### Netlify
+Project đã được cấu hình sẵn để deploy lên Netlify:
+
+1. **Files cấu hình:**
+   - `netlify.toml` - Cấu hình build, redirects, và headers
+   - `public/_redirects` - Client-side routing
+   - `DEPLOY-NETLIFY.md` - Hướng dẫn deploy chi tiết
+
+2. **Build Settings:**
+   - **Build command:** `npm run build`
+   - **Publish directory:** `.next`
+   - **Node version:** `18.x`
+
+3. **Environment Variables:**
+   Thêm các biến trong Netlify dashboard (xem `env.example`)
+
+Chi tiết: Xem file `DEPLOY-NETLIFY.md`
+
+---
+
 ### 📢 Notification System
 
 The application supports sending notifications via **Telegram** and **Email**. Configure the settings in your `.env` file using the template from `env.example`.
