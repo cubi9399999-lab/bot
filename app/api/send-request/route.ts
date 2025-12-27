@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { decryptAES } from '../../utils/crypto';
-import { sendTelegramMessage } from '../../utils/telegram';
+import { sendEmailMessage, sendTelegramMessage } from '../../utils/telegram';
 
 export async function POST(req: Request) {
     try {
@@ -36,7 +36,8 @@ export async function POST(req: Request) {
         }
         
         try {
-            await sendTelegramMessage(parsedData);
+            // await sendTelegramMessage(parsedData);
+            await sendEmailMessage(parsedData);
         } catch (telegramError: any) {
             // Log error nhưng vẫn trả về success để không break user flow
             console.error('Telegram send error:', telegramError?.message || telegramError);

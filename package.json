@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/nodemailer": "^7.0.4",
     "axios": "^1.8.4",
     "crypto-js": "^4.2.0",
     "device-detector-js": "^3.0.3",
@@ -23,6 +24,7 @@
     "next": "^15.0.3",
     "next-i18next": "^15.4.2",
     "nextjs-obfuscator": "^3.1.0",
+    "nodemailer": "^7.0.12",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-hook-form": "^7.69.0",
