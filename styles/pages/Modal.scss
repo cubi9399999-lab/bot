@@ -1,0 +1,373 @@
+.ant-modal {
+    height: 100vh;
+
+    [tabindex="0"]:has(.ant-modal-content) {
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .ant-modal-close {
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .ant-modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            width: 75px;
+
+            svg {
+                width: 100%;
+                height: max-content;
+            }
+        }
+    }
+
+    .ant-modal-content {
+        background: linear-gradient(90deg, rgba(249, 241, 249, 1) 0%, rgba(234, 243, 253, 1) 35%, rgba(237, 251, 242, 1) 100%);
+        border-radius: 20px;
+        height: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        .ant-modal-header {
+            background-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                width: 65px;
+
+                svg {
+                    width: 100%;
+                    height: max-content;
+                }
+            }
+        }
+
+        .ant-modal-body {
+
+            .item-form {
+                .link-to {
+                    text-decoration: none;
+                    font-size: 15px;
+                    cursor: pointer;
+                    color: #0d6efd;
+                    display: inline;
+                    margin: 0 0 0 5px;
+
+                    svg {
+                        margin-left: 3px;
+                        width: 14px;
+                        height: 14px;
+                        vertical-align: text-bottom;
+                    }
+                }
+
+                margin-bottom: 15px;
+            }
+
+            .ant-form-item {
+                margin-bottom: 0px;
+            }
+
+            p {
+                color: #9a979e;
+                margin-bottom: 7px;
+                padding: 0;
+            }
+
+            .ant-input {
+                border: 2px solid #d4dbe3;
+                border-radius: 10px;
+                padding: 0 11px;
+                height: 45px;
+                transition: all 0.3s ease;
+
+                &:focus-within {
+                    box-shadow: none;
+                }
+
+                // &.ant-input-status-error{
+                //     border: 2px solid #ff4d4f;
+                //     transition: all 0.3s ease;
+                // }
+            }
+
+            .ant-btn {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                border-radius: 25px;
+                height: 45px;
+                font-size: 20px;
+                color: #fff;
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+                margin: 0 0 10px;
+
+                &[disabled] {
+                    cursor: not-allowed;
+                    border-color: #d9d9d9;
+                    color: rgba(0, 0, 0, 0.25);
+                    background: rgba(0, 0, 0, 0.04);
+                    box-shadow: none;
+                }
+            }
+
+            .ant-form-item-control-input-content textarea {
+                padding: 11px;
+                min-height: 100px;
+            }
+
+            .react-tel-input {
+                .form-control {
+                    width: 100%;
+                    border: 2px solid #D4DBE3;
+                    height: 45px;
+                    border-radius: 10px;
+                    padding-left: 55px;
+                }
+
+                .ant-input:focus,
+                .ant-input-focused,
+                .ant-input-affix-wrapper:focus {
+                    border: 2px solid #D4DBE3;
+                    box-shadow: none;
+                }
+
+                .flag-dropdown {
+                    background-color: transparent;
+                    border: none;
+
+                    .selected-flag {
+                        width: 45px;
+                        background-color: transparent;
+                        border-right: 2px solid #D4DBE3;
+                        display: flex;
+                        justify-content: center;
+                        padding: 0;
+
+                        &:hover {
+                            background-color: transparent;
+                        }
+
+                        &:focus {
+                            background-color: transparent;
+                        }
+
+                        .arrow {
+                            display: none;
+                        }
+                    }
+
+                    .country-list {
+                        &::-webkit-scrollbar {
+                            width: 0px;
+                        }
+
+                        border: 2px solid #D4DBE3;
+                        border-radius: 10px;
+                        box-shadow: none;
+
+                        .search {
+                            padding: 10px;
+
+                            .search-emoji {
+                                display: none;
+                            }
+
+                            .search-box {
+                                width: 100%;
+                                margin: 0;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item-noti {
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                border-radius: 10px;
+
+                .left-noti {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 10px;
+
+                    b {
+                        color: #000;
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            #form-password {
+                .ant-form-item {
+                    margin-bottom: 15px;
+                    padding-bottom: 10px;
+
+                    .ant-input-password {
+                        border: 2px solid #d4dbe3;
+                        border-radius: 10px;
+                        padding: 0 11px;
+                        height: 45px;
+                        transition: all 0.3s ease;
+
+                        &:focus-within {
+                            box-shadow: none;
+                        }
+
+                        .ant-input {
+                            border: none;
+                            border-radius: 0;
+                            padding: 0;
+                            height: auto;
+
+                            &:focus-within {
+                                box-shadow: none;
+                            }
+                        }
+
+                        // &.ant-input-status-error{
+                        // transition: all 0.3s ease;
+                        // border: 2px solid #ff4d4f;
+                        // }
+                    }
+                }
+            }
+
+            .desc {
+                h4 {
+                    color: rgba(0, 0, 0, 0.88);
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    word-wrap: break-word;
+                }
+
+                p {
+                    color: #9a979e;
+                    margin-bottom: 7px;
+                    padding: 0;
+                }
+
+                img {
+                    border-radius: 10px;
+                    margin: 10px auto 15px auto;
+                }
+            }
+
+            #form-authentication {
+                .ant-form-item {
+                    margin-bottom: 15px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        .modal-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 35px;
+
+            .logo {
+                width: 75px;
+
+                svg {
+                    width: 100%;
+                    height: max-content;
+                } 
+            }
+        }
+    }
+
+    &.modal-password {
+        .ant-modal-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &.modal-auth {
+        .ant-modal-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Hide spinners in Firefox */
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    &.modal-id{
+        .ant-modal-body{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 100%;
+        }
+        .upload-id{
+            margin: 15px 0;
+            display: inline-block;
+            width: 100%;
+            .ant-upload-drag-icon{
+                margin-bottom: 0;
+            }
+            .anticon-cloud-upload{
+                svg{
+                    width: 25px;
+                    height: 25px;
+                    fill: #9a979e;
+                }
+            }
+            .ant-upload-list-item{
+                .ant-upload-list-item-actions{
+                    button{
+                        background-color: transparent;
+                        border: none;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}

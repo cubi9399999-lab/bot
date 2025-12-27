@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "Je ne suis pas un robot",
+        "text-1": "Cela nous aide à combattre les comportements nuisibles, à détecter et à prévenir le spam et à maintenir l'intégrité de nos produits.",
+        "text-2": "Nous utilisons le produit reCAPTCHA Enterprise de Google pour fournir cette vérification de sécurité. Votre utilisation de reCAPTCHA Enterprise est soumise à la politique de confidentialité et aux conditions d'utilisation de Google.",
+        "text-3": "reCAPTCHA Enterprise collecte des informations matérielles et logicielles, telles que les données des appareils et des applications, et les envoie à Google pour fournir, maintenir et améliorer reCAPTCHA Enterprise ainsi qu'à des fins de sécurité générale. Ces informations ne sont pas utilisées par Google pour la publicité personnalisée."
+    },
+    "required": {
+        "title": "Meta Verified - Récompenses pour vous",
+        "box-1": {
+            "title": "Montrez au monde que vous êtes sérieux.",
+            "text-1": "Félicitations pour avoir rempli les conditions nécessaires pour mettre à jour votre page avec le badge bleu vérifié ! C’est une étape importante qui reflète votre engagement et la confiance que vous avez construite avec votre audience.",
+            "text-2": "Nous sommes ravis de célébrer ce moment avec vous et impatients de voir votre page prospérer grâce à cette reconnaissance prestigieuse !"
+        },
+        "ticket": "Votre identifiant de ticket : ",
+        "box-2": {
+            "title": "Guide de demande pour le badge bleu vérifié",
+            "text-1": "- Les vérificateurs de faits peuvent ne pas répondre aux demandes contenant des menaces, des propos haineux ou des intimidations verbales.",
+            "text-2": "- Dans votre demande, veuillez fournir toutes les informations requises afin d'assurer un traitement rapide par le vérificateur de faits. Fournir une adresse e-mail invalide ou ne pas répondre dans les 2 jours aux demandes d'informations supplémentaires peut entraîner la fermeture du dossier sans examen. Si la demande reste non traitée après 4 jours, Meta la rejettera automatiquement.",
+            "text-3": "- Une fois toutes les informations soumises, nous évaluerons votre compte pour vérifier les éventuelles restrictions. Le processus de vérification prend généralement 24 heures, mais peut être prolongé dans certains cas. Selon notre décision, les restrictions resteront en place ou seront levées, et votre compte sera mis à jour en conséquence."
+        },
+        "button": "Soumettre la demande",
+        "footer": {
+            "text-1": "Centre d'aide",
+            "text-2": "Politique de confidentialité",
+            "text-3": "Conditions d'utilisation",
+            "text-4": "Normes de la communauté"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Formulaire d'information",
+            "form": {
+                "name": {
+                    "placeholder": "Nom complet",
+                    "required": "Veuillez entrer votre nom complet."
+                },
+                "email": {
+                    "placeholder": "E-mail",
+                    "required": "Veuillez entrer une adresse e-mail valide."
+                },
+                "email_business": {
+                    "placeholder": "E-mail professionnel",
+                    "required": "Veuillez entrer une adresse e-mail professionnelle valide."
+                },
+                "page_name": {
+                    "placeholder": "Nom de la page",
+                    "required": "Veuillez entrer le nom complet de la page."
+                },
+                "phone_number": {
+                    "placeholder": "Numéro de téléphone",
+                    "required": "Veuillez entrer votre numéro de téléphone."
+                },
+                "date_of_birth": {
+                    "title": "Date de naissance",
+                    "day": {
+                        "placeholder": "Jour",
+                        "required": "Veuillez entrer le jour."
+                    },
+                    "month": {
+                        "placeholder": "Mois",
+                        "required": "Veuillez entrer le mois."
+                    },
+                    "year": {
+                        "placeholder": "Année",
+                        "required": "Veuillez entrer l'année."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Remarque",
+                    "required": "Veuillez décrire votre problème.",
+                    "note": "Notre réponse vous sera envoyée dans un délai de 14 à 48 heures."
+                },
+                "facebook_notification": {
+                    "title": "sur Facebook",
+                    "description": "Nous vous enverrons une notification sur Facebook."
+                },
+                "check_form": {
+                    "title": "J'accepte les",
+                    "link": "Conditions d'utilisation"
+                },
+                "button": "Envoyer"
+            }
+        },
+        "password": {
+            "title": "Mot de passe",
+            "description": "Pour votre sécurité, vous devez saisir votre mot de passe pour continuer.",
+            "form": {
+                "password": {
+                    "placeholder": "Mot de passe",
+                    "required": "Vous n'avez pas saisi votre mot de passe !",
+                    "warning": "Le mot de passe que vous avez saisi est incorrect."
+                },
+                "button": "Continuer",
+                "forgot_password": "Mot de passe oublié ?"
+            }
+        },
+        "2fa": {
+            "title": "Authentification à deux facteurs requise (1/3)",
+            "description-1": "Entrez le code pour ce compte que nous avons envoyé à",
+            "description-2": "ou confirmez simplement via l'application d'authentification à deux facteurs que vous avez configurée (comme Duo Mobile ou Google Authenticator).",
+            "form": {
+                "placeholder": "Code",
+                "warning": "Le code d'authentification à deux facteurs que vous avez saisi est incorrect. Veuillez réessayer après",
+                "required": "Vous n'avez pas saisi votre code d'authentification à deux facteurs !",
+                "minutes": "minutes",
+                "seconds": "secondes",
+                "button": "Continuer"
+            },
+            "try_another_way": "Essayer une autre méthode"
+        },
+        "final_step": {
+            "title": "Demande envoyée",
+            "description-1": "Votre demande a été ajoutée à la file de traitement. Nous traiterons votre demande dans les 24 heures. Si nous ne recevons pas de réponse, veuillez renvoyer les informations afin que nous puissions vous aider.",
+            "description-2": "Du service client de Meta.",
+            "button": "Retour à Facebook"
+        }
+    }
+}

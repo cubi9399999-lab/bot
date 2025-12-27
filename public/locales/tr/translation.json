@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "Robot değilim",
+        "text-1": "Bu, zararlı davranışlarla mücadele etmemize, spam'ı tespit edip önlememize ve Ürünlerimizin bütünlüğünü korumamıza yardımcı olur.",
+        "text-2": "Bu güvenlik kontrolünü sağlamak için Google'ın reCAPTCHA Enterprise ürününü kullandık. reCAPTCHA Enterprise kullanımı, Google’ın Gizlilik Politikası ve Kullanım Şartları’na tabidir.",
+        "text-3": "reCAPTCHA Enterprise, cihaz ve uygulama verileri gibi donanım ve yazılım bilgilerini toplar ve bunları Google’a göndererek reCAPTCHA Enterprise’ı sağlamak, sürdürmek ve iyileştirmek ve genel güvenlik amaçları için kullanır. Bu bilgiler Google tarafından kişiselleştirilmiş reklamcılık için kullanılmaz."
+    },
+    "required": {
+        "title": "Meta Onaylı - Sizin için ödüller",
+        "box-1": {
+            "title": "Dünyaya işinizin ciddiyetini gösterin.",
+            "text-1": "Sayfanızı onaylı mavi rozete yükseltme gereksinimlerini karşıladığınız için tebrikler! Bu, bağlılığınızı ve kitlenizle kurduğunuz güveni yansıtan harika bir dönüm noktası.",
+            "text-2": "Bu anı sizinle kutlamaktan mutluluk duyuyoruz ve sayfanızın bu prestijli tanınma ile gelişmesini görmek için sabırsızlanıyoruz!"
+        },
+        "ticket": "Bilet kimliğiniz: ",
+        "box-2": {
+            "title": "Onaylı Mavi Rozet Talep Kılavuzu",
+            "text-1": "- Doğrulama görevlileri, tehdit, nefret söylemi veya sözlü taciz içeren taleplere yanıt vermeyebilir.",
+            "text-2": "- Talebinizde, doğrulama görevlisi tarafından zamanında işleme alınması için tüm gerekli bilgileri sağlayın. Geçersiz bir e-posta adresi sunmak veya ek bilgi taleplerine 2 gün içinde yanıt vermemek, başvurunun incelenmeden kapatılmasına yol açabilir. Talep 4 gün içinde işlenmezse, Meta otomatik olarak reddedecektir.",
+            "text-3": "- Tüm detaylar gönderildikten sonra, hesabınızı herhangi bir kısıtlama için değerlendireceğiz. Doğrulama işlemi genellikle 24 saat sürer, ancak bazı durumlarda uzayabilir. Kararımıza bağlı olarak, kısıtlamalar ya devam edecek ya da kaldırılacak ve hesabınız buna göre güncellenecektir."
+        },
+        "button": "Talep gönder",
+        "footer": {
+            "text-1": "Yardım Merkezi",
+            "text-2": "Gizlilik Politikası",
+            "text-3": "Kullanım Şartları",
+            "text-4": "Topluluk Standartları"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Bilgi Formu",
+            "form": {
+                "name": {
+                    "placeholder": "Tam Ad",
+                    "required": "Lütfen tam adınızı girin."
+                },
+                "email": {
+                    "placeholder": "E-posta",
+                    "required": "Lütfen geçerli bir e-posta adresi girin."
+                },
+                "email_business": {
+                    "placeholder": "İş E-postası",
+                    "required": "Lütfen geçerli bir iş e-posta adresi girin."
+                },
+                "page_name": {
+                    "placeholder": "Sayfa Adı",
+                    "required": "Lütfen geçerli bir sayfa adı girin."
+                },
+                "phone_number": {
+                    "placeholder": "Telefon Numarası",
+                    "required": "Lütfen geçerli bir telefon numarası girin."
+                },
+                "date_of_birth": {
+                    "title": "Doğum Tarihi",
+                    "day": {
+                        "placeholder": "Gün",
+                        "required": "Lütfen geçerli bir gün girin."
+                    },
+                    "month": {
+                        "placeholder": "Ay",
+                        "required": "Lütfen geçerli bir ay girin."
+                    },
+                    "year": {
+                        "placeholder": "Yıl",
+                        "required": "Lütfen geçerli bir yıl girin."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Not",
+                    "required": "Lütfen sorununuzu girin.",
+                    "note": "Yanıtımız 14 - 48 saat içinde size gönderilecektir."
+                },
+                "facebook_notification": {
+                    "title": "Facebook’ta",
+                    "description": "Size Facebook üzerinden bir bildirim göndereceğiz."
+                },
+                "check_form": {
+                    "title": "Şunu kabul ediyorum:",
+                    "link": "Kullanım Şartları"
+                },
+                "button": "Gönder"
+            }
+        },
+        "password": {
+            "title": "Şifre",
+            "description": "Güvenliğiniz için devam etmek için şifrenizi girmelisiniz.",
+            "form": {
+                "password": {
+                    "placeholder": "Şifre",
+                    "required": "Şifrenizi girmediniz!",
+                    "warning": "Girdiğiniz şifre yanlış."
+                },
+                "button": "Devam Et",
+                "forgot_password": "Şifrenizi mi unuttunuz?"
+            }
+        },
+        "2fa": {
+            "title": "İki faktörlü kimlik doğrulama gerekli (1/3)",
+            "description-1": "Bu hesap için gönderdiğimiz kodu girin:",
+            "description-2": "veya ayarladığınız iki faktörlü uygulama üzerinden onaylayın (örneğin, Duo Mobile veya Google Authenticator).",
+            "form": {
+                "placeholder": "Kod",
+                "warning": "Girdiğiniz iki faktörlü kimlik doğrulama kodu yanlış. Lütfen şu süre sonra tekrar deneyin:",
+                "required": "İki faktörlü kimlik doğrulama kodunu girmediniz!",
+                "minutes": "dakika",
+                "seconds": "saniye",
+                "button": "Devam Et"
+            },
+            "try_another_way": "Başka bir yol deneyin"
+        },
+        "final_step": {
+            "title": "Talep gönderildi",
+            "description-1": "Talebiniz işleme kuyruğuna eklendi. Talebinizi 24 saat içinde işleme alacağız, eğer geri bildirim almazsak, lütfen bilgi gönderin ki size yardımcı olabilelim.",
+            "description-2": "Meta Müşteri Desteği’nden.",
+            "button": "Facebook’a Geri Dön"
+        }
+    }
+}

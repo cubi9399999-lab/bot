@@ -1,0 +1,95 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+
+    @media (max-width: 768px) {
+        padding: 0px 15px;
+    }
+
+    .verify-account-page {
+        max-width: 600px;
+        width: 100%;
+        margin: 64px auto 0 auto;
+
+        .ant-form-item{
+            margin-bottom: 0px;
+        }
+
+        .desc-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 5px;
+            color: #9a979e;
+            margin-bottom: 10px;
+
+            .dot {
+                width: 3px;
+                height: 3px;
+                background-color: #9a979e;
+                border-radius: 100%;
+            }
+
+        }
+
+        .desc {
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+        .ant-form-item-additional {
+            min-height: 0px !important;
+        }
+
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Hide spinners in Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        .input-code {
+            padding: 10px 16px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+
+        .button-send {
+            width: 100%;
+            height: 44px;
+            margin-bottom: 12px;
+            border-radius: 45px;
+            font-weight: 600;
+
+            span{
+                color: #9a979e;
+            }
+
+            &.ant-submit-button {
+                font-size: 17px;
+                span{
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                &[disabled] {
+                    span{
+                        color: #9a979e;
+                    }
+                }
+            }
+        }
+
+    }
+}

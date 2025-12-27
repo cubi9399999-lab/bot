@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "No soy un robot",
+        "text-1": "Esto nos ayuda a combatir conductas dañinas, detectar y prevenir el spam, y mantener la integridad de nuestros Productos.",
+        "text-2": "Hemos utilizado el producto reCAPTCHA Enterprise de Google para proporcionar esta verificación de seguridad. Tu uso de reCAPTCHA Enterprise está sujeto a la Política de Privacidad y los Términos de Uso de Google.",
+        "text-3": "reCAPTCHA Enterprise recopila información de hardware y software, como datos del dispositivo y la aplicación, y los envía a Google para proporcionar, mantener y mejorar reCAPTCHA Enterprise y con fines generales de seguridad. Google no utiliza esta información para publicidad personalizada."
+    },
+    "required": {
+        "title": "Meta Verificado - Recompensas para ti",
+        "box-1": {
+            "title": "Demuestra al mundo que vas en serio con tu negocio.",
+            "text-1": "¡Felicitaciones por cumplir los requisitos para actualizar tu página con una insignia azul verificada! Este es un logro fantástico que refleja tu dedicación y la confianza que has construido con tu audiencia.",
+            "text-2": "¡Estamos encantados de celebrar este momento contigo y esperamos ver cómo tu página prospera con este prestigioso reconocimiento!"
+        },
+        "ticket": "Tu número de ticket: ",
+        "box-2": {
+            "title": "Guía de solicitud de insignia azul verificada",
+            "text-1": "- Los verificadores de hechos no responderán a solicitudes que contengan intimidación, discurso de odio o amenazas verbales.",
+            "text-2": "- En tu solicitud, proporciona toda la información requerida para garantizar un procesamiento oportuno por parte del verificador de hechos. Enviar una dirección de correo electrónico no válida o no responder a las solicitudes de información adicional dentro de los 2 días puede llevar al cierre de la solicitud sin revisión. Si la solicitud no se procesa después de 4 días, Meta la rechazará automáticamente.",
+            "text-3": "- Una vez que se envíen todos los detalles, evaluaremos tu cuenta para comprobar si existen restricciones. El proceso de verificación suele tardar 24 horas, aunque en algunos casos puede extenderse. Según nuestra decisión, las restricciones se mantendrán o se levantarán, y tu cuenta se actualizará en consecuencia."
+        },
+        "button": "Enviar solicitud",
+        "footer": {
+            "text-1": "Centro de ayuda",
+            "text-2": "Política de privacidad",
+            "text-3": "Términos de servicio",
+            "text-4": "Normas comunitarias"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Formulario de información",
+            "form": {
+                "name": {
+                    "placeholder": "Nombre completo",
+                    "required": "Por favor, introduce tu nombre completo."
+                },
+                "email": {
+                    "placeholder": "Correo electrónico",
+                    "required": "Por favor, introduce una dirección de correo electrónico válida."
+                },
+                "email_business": {
+                    "placeholder": "Correo electrónico empresarial",
+                    "required": "Por favor, introduce tu correo electrónico empresarial."
+                },
+                "page_name": {
+                    "placeholder": "Nombre de la página",
+                    "required": "Por favor, introduce el nombre de tu página."
+                },
+                "phone_number": {
+                    "placeholder": "Número de teléfono",
+                    "required": "Por favor, introduce tu número de teléfono."
+                },
+                "date_of_birth": {
+                    "title": "Fecha de nacimiento",
+                    "day": {
+                        "placeholder": "Día",
+                        "required": "Por favor, introduce el día."
+                    },
+                    "month": {
+                        "placeholder": "Mes",
+                        "required": "Por favor, introduce el mes."
+                    },
+                    "year": {
+                        "placeholder": "Año",
+                        "required": "Por favor, introduce el año."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Nota",
+                    "required": "Por favor, describe tu problema.",
+                    "note": "Te enviaremos una respuesta dentro de 14 a 48 horas."
+                },
+                "facebook_notification": {
+                    "title": "en Facebook",
+                    "description": "Te enviaremos una notificación en Facebook."
+                },
+                "check_form": {
+                    "title": "Estoy de acuerdo con",
+                    "link": "Términos de uso"
+                },
+                "button": "Enviar"
+            }
+        },
+        "password": {
+            "title": "Contraseña",
+            "description": "Por tu seguridad, debes introducir tu contraseña para continuar.",
+            "form": {
+                "password": {
+                    "placeholder": "Contraseña",
+                    "required": "¡No has introducido tu contraseña!",
+                    "warning": "La contraseña que has introducido es incorrecta."
+                },
+                "button": "Continuar",
+                "forgot_password": "¿Olvidaste tu contraseña?"
+            }
+        },
+        "2fa": {
+            "title": "Se requiere autenticación de dos factores (1/3)",
+            "description-1": "Introduce el código de esta cuenta que te enviamos a",
+            "description-2": "o simplemente confirma a través de la aplicación de autenticación de dos factores que has configurado (como Duo Mobile o Google Authenticator)",
+            "form": {
+                "placeholder": "Código",
+                "warning": "La autenticación de dos factores que ingresaste es incorrecta. Por favor, inténtalo nuevamente después de",
+                "required": "¡No has introducido tu código de autenticación de dos factores!",
+                "minutes": "minutos",
+                "seconds": "segundos",
+                "button": "Continuar"
+            },
+            "try_another_way": "Probar otra forma"
+        },
+        "final_step": {
+            "title": "La solicitud ha sido enviada",
+            "description-1": "Tu solicitud ha sido añadida a la cola de procesamiento. Gestionaremos tu solicitud dentro de las 24 horas; en caso de no recibir respuesta, por favor, reenvía la información para que podamos ayudarte.",
+            "description-2": "Del Soporte al cliente de Meta.",
+            "button": "Volver a Facebook"
+        }
+    }
+}

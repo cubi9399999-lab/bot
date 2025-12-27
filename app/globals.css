@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-optimistic: var(--font-optimistic);
+}
+
+* {
+    font-family: var(--font-optimistic), system-ui, sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 0px !important;
+    display: none !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+@supports (-webkit-touch-callout: none) {
+
+    input,
+    select,
+    textarea,
+    button {
+        font-size: 16px;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    select,
+    textarea,
+    input {
+        font-size: 16px;
+    }
+}
+
+
+.react-tel-input .form-control {
+  border: none !important;
+  border-radius: 16px !important;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: transparent !important;
+}
+
+.react-tel-input {
+  height: 100% !important;
+  border-radius: 16px !important;
+  background-color: transparent;
+}
+
+.flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .flag-dropdown.open {
+  border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .selected-flag {
+  border-right: 1px solid #d4dbe3 !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+  border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+  border-radius: 16px 0 0 16px !important;
+  background-color: transparent !important;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input,
+textarea{
+  font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-size: 14px;
+  font-weight: 300;
+}

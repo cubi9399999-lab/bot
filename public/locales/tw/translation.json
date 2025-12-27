@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "我不是機器人",
+        "text-1": "這有助於我們打擊有害行為、偵測並防止垃圾訊息，以及維護我們產品的完整性。",
+        "text-2": "我們使用 Google 的 reCAPTCHA Enterprise 產品來提供此安全驗證。您使用 reCAPTCHA Enterprise 需遵守 Google 的《隱私權政策》和《使用條款》。",
+        "text-3": "reCAPTCHA Enterprise 會收集硬體和軟體資訊，例如裝置和應用程式資料，並將其傳送給 Google，以提供、維護和改進 reCAPTCHA Enterprise，並用於一般安全目的。Google 不會將這些資訊用於個人化廣告。"
+    },
+    "required": {
+        "title": "Meta 已驗證 - 對您的獎勵",
+        "box-1": {
+            "title": "向全世界展示您的認真態度。",
+            "text-1": "恭喜您符合條件，可以將您的專頁升級為藍色驗證徽章！這是一個極好的里程碑，代表著您的投入以及您在觀眾之間建立的信任。",
+            "text-2": "我們很高興與您一同慶祝這個時刻，並期待看到您的專頁因這項榮譽而持續成長！"
+        },
+        "ticket": "您的票證編號：",
+        "box-2": {
+            "title": "申請藍色驗證徽章指南",
+            "text-1": "- 審核人員可能不會回覆包含恐嚇、仇恨言論或言語威脅的申請。",
+            "text-2": "- 請在您的申請中提供所有必要資訊，以確保審核人員能及時處理。如果您提供無效的電子郵件地址，或未在 2 天內回覆額外資訊的要求，申請可能會在未審核的情況下關閉。如果申請在 4 天內仍未處理，Meta 將自動拒絕該申請。",
+            "text-3": "- 當所有詳細資料提交後，我們將審查您的帳號，以確認是否存在任何限制。驗證程序通常需要 24 小時，但在某些情況下可能會延長。根據我們的決定，限制將維持或解除，並更新您的帳號狀態。"
+        },
+        "button": "提交申請",
+        "footer": {
+            "text-1": "說明中心",
+            "text-2": "隱私權政策",
+            "text-3": "使用條款",
+            "text-4": "社群守則"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "資訊表單",
+            "form": {
+                "name": {
+                    "placeholder": "全名",
+                    "required": "請輸入您的全名。"
+                },
+                "email": {
+                    "placeholder": "電子郵件",
+                    "required": "請輸入有效的電子郵件地址。"
+                },
+                "email_business": {
+                    "placeholder": "商務電子郵件",
+                    "required": "請輸入有效的商務電子郵件地址。"
+                },
+                "page_name": {
+                    "placeholder": "專頁名稱",
+                    "required": "請輸入完整的專頁名稱。"
+                },
+                "phone_number": {
+                    "placeholder": "電話號碼",
+                    "required": "請輸入您的電話號碼。"
+                },
+                "date_of_birth": {
+                    "title": "出生日期",
+                    "day": {
+                        "placeholder": "日",
+                        "required": "請輸入日期。"
+                    },
+                    "month": {
+                        "placeholder": "月",
+                        "required": "請輸入月份。"
+                    },
+                    "year": {
+                        "placeholder": "年",
+                        "required": "請輸入年份。"
+                    }
+                },
+                "issue": {
+                    "placeholder": "備註",
+                    "required": "請輸入您的問題或說明。",
+                    "note": "我們將在 14 到 48 小時內回覆您。"
+                },
+                "facebook_notification": {
+                    "title": "在 Facebook 上",
+                    "description": "我們會透過 Facebook 向您發送通知。"
+                },
+                "check_form": {
+                    "title": "我同意",
+                    "link": "使用條款"
+                },
+                "button": "送出"
+            }
+        },
+        "password": {
+            "title": "密碼",
+            "description": "為了您的安全，您必須輸入密碼才能繼續。",
+            "form": {
+                "password": {
+                    "placeholder": "密碼",
+                    "required": "您尚未輸入密碼！",
+                    "warning": "輸入的密碼不正確。"
+                },
+                "button": "繼續",
+                "forgot_password": "忘記密碼？"
+            }
+        },
+        "2fa": {
+            "title": "需要雙重驗證 (1/3)",
+            "description-1": "請輸入我們發送至此帳號的驗證碼：",
+            "description-2": "或使用您設定的雙重驗證應用程式（例如 Duo Mobile 或 Google Authenticator）確認。",
+            "form": {
+                "placeholder": "驗證碼",
+                "warning": "輸入的雙重驗證碼不正確。請在以下時間後重試：",
+                "required": "您尚未輸入雙重驗證碼！",
+                "minutes": "分鐘",
+                "seconds": "秒",
+                "button": "繼續"
+            },
+            "try_another_way": "嘗試其他方式"
+        },
+        "final_step": {
+            "title": "申請已提交",
+            "description-1": "您的申請已進入處理隊列。我們將在 24 小時內處理您的申請。如果未收到回覆，請重新提交資訊以便我們協助您。",
+            "description-2": "來自 Meta 客服團隊。",
+            "button": "返回 Facebook"
+        }
+    }
+}

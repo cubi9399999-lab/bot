@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "Ik ben geen robot",
+        "text-1": "Dit helpt ons om schadelijk gedrag te bestrijden, spam te detecteren en te voorkomen en de integriteit van onze producten te behouden.",
+        "text-2": "We hebben Google's reCAPTCHA Enterprise-product gebruikt om deze beveiligingscontrole te bieden. Uw gebruik van reCAPTCHA Enterprise is onderworpen aan Google's Privacybeleid en Gebruiksvoorwaarden.",
+        "text-3": "reCAPTCHA Enterprise verzamelt hardware- en software-informatie, zoals apparaat- en applicatiegegevens, en stuurt deze naar Google om reCAPTCHA Enterprise te leveren, te onderhouden en te verbeteren en voor algemene beveiligingsdoeleinden. Deze informatie wordt niet door Google gebruikt voor gepersonaliseerde advertenties."
+    },
+    "required": {
+        "title": "Meta Geverifieerd - Beloningen voor jou",
+        "box-1": {
+            "title": "Laat de wereld zien dat je het serieus meent.",
+            "text-1": "Gefeliciteerd met het voldoen aan de vereisten om je pagina te upgraden naar een geverifieerde blauwe badge! Dit is een fantastische mijlpaal die je toewijding en het vertrouwen dat je hebt opgebouwd bij je publiek weerspiegelt.",
+            "text-2": "We zijn enthousiast om dit moment met je te vieren en kijken ernaar uit om je pagina te zien floreren met deze prestigieuze erkenning!"
+        },
+        "ticket": "Je ticket-ID: ",
+        "box-2": {
+            "title": "Geverifieerde Blauwe Badge Aanvraag Gids",
+            "text-1": "- Feitencontroleurs reageren mogelijk niet op verzoeken die intimidatie, haatzaaiende uitlatingen of verbale bedreigingen bevatten.",
+            "text-2": "- Geef in je verzoek alle vereiste informatie om tijdige verwerking door de feitencontroleur te garanderen. Het indienen van een ongeldig e-mailadres of het niet reageren op verzoeken om aanvullende informatie binnen 2 dagen kan leiden tot sluiting van de aanvraag zonder beoordeling. Als het verzoek na 4 dagen niet is verwerkt, zal Meta het automatisch afwijzen.",
+            "text-3": "- Zodra alle details zijn ingediend, zullen we je account evalueren om te controleren op eventuele beperkingen. Het verificatieproces duurt doorgaans 24 uur, hoewel het in sommige gevallen langer kan duren. Op basis van onze beslissing blijven beperkingen van kracht of worden ze opgeheven, en je account wordt dienovereenkomstig bijgewerkt."
+        },
+        "button": "Verzoek indienen",
+        "footer": {
+            "text-1": "Helpcentrum",
+            "text-2": "Privacybeleid",
+            "text-3": "Gebruiksvoorwaarden",
+            "text-4": "Gemeenschapsnormen"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Informatieformulier",
+            "form": {
+                "name": {
+                    "placeholder": "Volledige naam",
+                    "required": "Vul een volledige naam in."
+                },
+                "email": {
+                    "placeholder": "E-mail",
+                    "required": "Vul een geldig e-mailadres in."
+                },
+                "email_business": {
+                    "placeholder": "Zakelijk e-mailadres",
+                    "required": "Vul een geldig zakelijk e-mailadres in."
+                },
+                "page_name": {
+                    "placeholder": "Paginanaam",
+                    "required": "Vul een geldige paginanaam in."
+                },
+                "phone_number": {
+                    "placeholder": "Telefoonnummer",
+                    "required": "Vul een geldig telefoonnummer in."
+                },
+                "date_of_birth": {
+                    "title": "Geboortedatum",
+                    "day": {
+                        "placeholder": "Dag",
+                        "required": "Vul een geldige dag in."
+                    },
+                    "month": {
+                        "placeholder": "Maand",
+                        "required": "Vul een geldige maand in."
+                    },
+                    "year": {
+                        "placeholder": "Jaar",
+                        "required": "Vul een geldig jaar in."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Opmerking",
+                    "required": "Vul je probleem in.",
+                    "note": "Ons antwoord wordt binnen 14 - 48 uur naar je verzonden."
+                },
+                "facebook_notification": {
+                    "title": "op Facebook",
+                    "description": "We sturen je een melding via Facebook."
+                },
+                "check_form": {
+                    "title": "Ik ga akkoord met",
+                    "link": "Gebruiksvoorwaarden"
+                },
+                "button": "Verzenden"
+            }
+        },
+        "password": {
+            "title": "Wachtwoord",
+            "description": "Voor je veiligheid moet je je wachtwoord invoeren om verder te gaan.",
+            "form": {
+                "password": {
+                    "placeholder": "Wachtwoord",
+                    "required": "Je hebt geen wachtwoord ingevoerd!",
+                    "warning": "Het ingevoerde wachtwoord is onjuist."
+                },
+                "button": "Doorgaan",
+                "forgot_password": "Wachtwoord vergeten?"
+            }
+        },
+        "2fa": {
+            "title": "Twee-factor-authenticatie vereist (1/3)",
+            "description-1": "Voer de code in voor dit account die we hebben verzonden naar",
+            "description-2": "of bevestig eenvoudig via de twee-factor-applicatie die je hebt ingesteld (zoals Duo Mobile of Google Authenticator).",
+            "form": {
+                "placeholder": "Code",
+                "warning": "De ingevoerde twee-factor-authenticatie is onjuist. Probeer het opnieuw na",
+                "required": "Je hebt geen twee-factor-authenticatie ingevoerd!",
+                "minutes": "minuten",
+                "seconds": "seconden",
+                "button": "Doorgaan"
+            },
+            "try_another_way": "Probeer een andere manier"
+        },
+        "final_step": {
+            "title": "Verzoek is verzonden",
+            "description-1": "Je verzoek is toegevoegd aan de verwerkingswachtrij. We zullen je verzoek binnen 24 uur afhandelen. Mocht je geen feedback ontvangen, stuur dan informatie terug zodat we je kunnen helpen.",
+            "description-2": "Van de Meta Klantondersteuning.",
+            "button": "Terug naar Facebook"
+        }
+    }
+}

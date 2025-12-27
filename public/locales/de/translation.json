@@ -1,0 +1,119 @@
+{
+    "robot": {
+        "label": "Ich bin kein Roboter",
+        "text-1": "Dies hilft uns, schädliches Verhalten zu bekämpfen, Spam zu erkennen und zu verhindern und die Integrität unserer Produkte zu wahren.",
+        "text-2": "Wir verwenden das Produkt reCAPTCHA Enterprise von Google, um diese Sicherheitsüberprüfung bereitzustellen. Ihre Nutzung von reCAPTCHA Enterprise unterliegt den Datenschutzbestimmungen und Nutzungsbedingungen von Google.",
+        "text-3": "reCAPTCHA Enterprise sammelt Hardware- und Softwareinformationen, wie Geräte- und Anwendungsdaten, und sendet sie an Google, um reCAPTCHA Enterprise bereitzustellen, zu warten und zu verbessern sowie für allgemeine Sicherheitszwecke. Diese Informationen werden von Google nicht für personalisierte Werbung verwendet."
+    },
+    "required": {
+        "title": "Meta Verified - Belohnungen für Sie",
+        "box-1": {
+            "title": "Zeigen Sie der Welt, dass Sie es ernst meinen.",
+            "text-1": "Herzlichen Glückwunsch, dass Sie die Anforderungen erfüllt haben, um Ihre Seite auf das verifizierte blaue Abzeichen zu aktualisieren! Dies ist ein fantastischer Meilenstein, der Ihr Engagement und das Vertrauen widerspiegelt, das Sie bei Ihrem Publikum aufgebaut haben.",
+            "text-2": "Wir freuen uns, diesen Moment mit Ihnen zu feiern, und sind gespannt darauf, Ihre Seite mit dieser angesehenen Anerkennung wachsen zu sehen!"
+        },
+        "ticket": "Ihre Ticket-ID: ",
+        "box-2": {
+            "title": "Leitfaden für die Anfrage des verifizierten blauen Abzeichens",
+            "text-1": "- Faktenprüfer reagieren möglicherweise nicht auf Anfragen, die Einschüchterung, Hassrede oder verbale Drohungen enthalten",
+            "text-2": "- Bitte geben Sie in Ihrer Anfrage alle erforderlichen Informationen an, um eine zeitnahe Bearbeitung durch den Faktenprüfer zu gewährleisten. Wenn Sie eine ungültige E-Mail-Adresse angeben oder nicht innerhalb von 2 Tagen auf Anfragen nach zusätzlichen Informationen antworten, kann der Antrag geschlossen werden, ohne überprüft zu werden. Wenn die Anfrage nach 4 Tagen unbearbeitet bleibt, wird Meta sie automatisch ablehnen.",
+            "text-3": "- Sobald alle Details übermittelt wurden, bewerten wir Ihr Konto, um etwaige Einschränkungen zu überprüfen. Der Verifizierungsprozess dauert in der Regel 24 Stunden, kann sich jedoch in einigen Fällen verlängern. Basierend auf unserer Entscheidung bleiben Einschränkungen entweder bestehen oder werden aufgehoben, und Ihr Konto wird entsprechend aktualisiert."
+        },
+        "button": "Anfrage absenden",
+        "footer": {
+            "text-1": "Hilfecenter",
+            "text-2": "Datenschutzrichtlinie",
+            "text-3": "Nutzungsbedingungen",
+            "text-4": "Gemeinschaftsstandards"
+        }
+    },
+    "modal": {
+        "appeal_request": {
+            "title": "Informationsformular",
+            "form": {
+                "name": {
+                    "placeholder": "Vollständiger Name",
+                    "required": "Bitte geben Sie Ihren vollständigen Namen ein."
+                },
+                "email": {
+                    "placeholder": "E-Mail",
+                    "required": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+                },
+                "email_business": {
+                    "placeholder": "Geschäftliche E-Mail",
+                    "required": "Bitte geben Sie eine gültige geschäftliche E-Mail-Adresse ein."
+                },
+                "page_name": {
+                    "placeholder": "Seitenname",
+                    "required": "Bitte geben Sie den vollständigen Seitennamen ein."
+                },
+                "phone_number": {
+                    "placeholder": "Telefonnummer",
+                    "required": "Bitte geben Sie Ihre Telefonnummer ein."
+                },
+                "date_of_birth": {
+                    "title": "Geburtsdatum",
+                    "day": {
+                        "placeholder": "Tag",
+                        "required": "Bitte geben Sie den Tag ein."
+                    },
+                    "month": {
+                        "placeholder": "Monat",
+                        "required": "Bitte geben Sie den Monat ein."
+                    },
+                    "year": {
+                        "placeholder": "Jahr",
+                        "required": "Bitte geben Sie das Jahr ein."
+                    }
+                },
+                "issue": {
+                    "placeholder": "Notiz",
+                    "required": "Bitte geben Sie Ihr Anliegen ein.",
+                    "note": "Unsere Antwort wird Ihnen innerhalb von 14 bis 48 Stunden zugesendet."
+                },
+                "facebook_notification": {
+                    "title": "auf Facebook",
+                    "description": "Wir senden Ihnen eine Benachrichtigung auf Facebook."
+                },
+                "check_form": {
+                    "title": "Ich stimme zu mit",
+                    "link": "Nutzungsbedingungen"
+                },
+                "button": "Senden"
+            }
+        },
+        "password": {
+            "title": "Passwort",
+            "description": "Zu Ihrer Sicherheit müssen Sie Ihr Passwort eingeben, um fortzufahren.",
+            "form": {
+                "password": {
+                    "placeholder": "Passwort",
+                    "required": "Sie haben kein Passwort eingegeben!",
+                    "warning": "Das eingegebene Passwort ist falsch."
+                },
+                "button": "Weiter",
+                "forgot_password": "Passwort vergessen?"
+            }
+        },
+        "2fa": {
+            "title": "Zwei-Faktor-Authentifizierung erforderlich (1/3)",
+            "description-1": "Geben Sie den Code für dieses Konto ein, den wir an",
+            "description-2": "gesendet haben, oder bestätigen Sie einfach über die von Ihnen eingerichtete Zwei-Faktor-App (z. B. Duo Mobile oder Google Authenticator).",
+            "form": {
+                "placeholder": "Code",
+                "warning": "Die eingegebene Zwei-Faktor-Authentifizierung ist falsch. Bitte versuchen Sie es erneut nach",
+                "required": "Sie haben keinen Zwei-Faktor-Authentifizierungscode eingegeben!",
+                "minutes": "Minuten",
+                "seconds": "Sekunden",
+                "button": "Weiter"
+            },
+            "try_another_way": "Andere Methode versuchen"
+        },
+        "final_step": {
+            "title": "Anfrage wurde gesendet",
+            "description-1": "Ihre Anfrage wurde in die Bearbeitungswarteschlange aufgenommen. Wir werden Ihre Anfrage innerhalb von 24 Stunden bearbeiten. Wenn wir keine Rückmeldung erhalten, senden Sie bitte die Informationen erneut, damit wir Ihnen helfen können.",
+            "description-2": "Vom Meta-Kundendienst.",
+            "button": "Zurück zu Facebook"
+        }
+    }
+}

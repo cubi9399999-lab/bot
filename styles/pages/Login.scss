@@ -1,0 +1,670 @@
+@font-face {
+    font-family: "Optimistic Text Normal";
+    src: url("../../public/fonts/6YirsaXqsap.woff2");
+}
+
+@font-face {
+    font-family: "Optimistic 95";
+    src: url("../../public/fonts/-pkMfchyeAZ.woff2");
+}
+
+@font-face {
+    font-family: "Optimistic";
+    src: url("../../public/fonts/Optimistic.woff2");
+}
+
+.page-wrapper {
+
+    .desktop-wrapper {
+        display: block;
+
+        @media (max-width: 980px) {
+            display: none;
+        }
+
+        .login-page {
+            .footer-page {
+                color: #737373;
+                font-size: 12px;
+
+                .content-wrapper {
+                    padding-top: 20px;
+                    width: 100%;
+                    max-width: 980px;
+                    margin: auto;
+
+                    .language-list {
+                        padding-top: 8px;
+                        align-items: center;
+                        display: flex;
+                        flex-wrap: wrap;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        gap: 20px;
+                        row-gap: 7px;
+
+                        li {
+                            cursor: pointer;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+
+                            .plus {
+                                color: #8a8d91;
+                                background-color: #ebedf0;
+                                height: 18px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 0px 8px;
+                                font-size: 17px;
+                                border-color: #ccd0d5;
+                                border-width: 1px;
+                                border-style: solid;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+
+                    .line {
+                        border-bottom: 1px solid #dddfe2;
+                        font-size: 1px;
+                        height: 8px;
+                        margin-bottom: 8px;
+                    }
+
+                    .copyright {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            .main-page {
+                padding-bottom: 112px;
+                padding-top: 72px;
+                background: #f2f4f7;
+
+                .content-wrapper {
+                    width: 100%;
+                    max-width: 980px;
+                    margin: 0 auto;
+                    padding: 20px 0;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+
+                    .content-left {
+                        box-sizing: border-box;
+                        margin-right: 0;
+                        padding-right: 32px;
+                        width: 580px;
+
+                        .logo {
+                            padding: 112px 0 16px;
+                            width: 265px;
+
+                            svg {
+                                width: 100%;
+                                height: min-content;
+                            }
+                        }
+
+                        .title {
+                            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 32px;
+                            width: 500px;
+                        }
+                    }
+
+                    .content-right {
+                        .content {
+                            height: 456px;
+                            width: 396px;
+
+                            .form {
+                                padding-bottom: 24px;
+                                padding-top: 10px;
+                                align-items: center;
+                                background-color: #fff;
+                                border: none;
+                                border-radius: 8px;
+                                box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+                                box-sizing: border-box;
+                                margin: 40px 0 0;
+                                padding: 20px 0 28px;
+                                width: 100%;
+
+                                .form-action {
+                                    padding: 0px 16px;
+
+                                    .form-group {
+                                        padding: 6px 0;
+                                        width: 100%;
+
+                                        &.error {
+                                            input{
+                                                border-color: red;
+                                            }
+                                        }
+
+                                        input {
+                                            border-radius: 6px;
+                                            font-size: 17px;
+                                            padding: 14px 16px;
+                                            background: #fff;
+                                            border: 1px solid #dddfe2;
+                                            color: #1d2129;
+                                            width: 100%;
+                                            font-family: inherit;
+
+                                            &:focus {
+                                                border-color: #0866ff;
+                                                box-shadow: 0 0 0 2px #e7f3ff;
+                                                caret-color: #0866ff;
+                                                border-width: 1px;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder {
+                                                font-weight: 300;
+                                            }
+                                        }
+
+                                        &.password {
+                                            position: relative;
+
+                                            .eye {
+                                                position: absolute;
+                                                cursor: pointer;
+                                                position: absolute;
+                                                top: 0;
+                                                bottom: 0;
+                                                width: 28px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                right: 8px;
+
+                                                .icon {
+                                                    width: 28px;
+                                                    height: 28px;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+
+                                                    &:hover {
+                                                        background-color: #0000000d;
+                                                    }
+
+                                                    svg {
+                                                        width: 16px;
+                                                        height: 16px;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .btn-submit {
+                                            padding-top: 6px;
+
+                                            button {
+                                                background-color: #0866ff;
+                                                border: none;
+                                                border-radius: 6px;
+                                                font-size: 20px;
+                                                line-height: 48px;
+                                                padding: 0 16px;
+                                                width: 100%;
+                                                outline: none;
+                                                cursor: pointer;
+                                                display: inline-block;
+                                                color: #fff;
+                                                font-weight: 700;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 44px;
+
+                                                svg {
+                                                    width: 24px;
+                                                    height: 24px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .forgot-password {
+                                    margin-top: 16px;
+                                    text-align: center;
+
+                                    a {
+                                        color: #0866ff;
+                                        font-size: 14px;
+                                        font-weight: 500;
+
+                                        &:hover {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+
+                                .line {
+                                    align-items: center;
+                                    border-bottom: 1px solid #DADDE1;
+                                    display: flex;
+                                    margin: 20px 16px;
+                                    text-align: center;
+                                }
+
+                                .create-account {
+                                    padding-top: 6px;
+                                    text-align: center;
+
+                                    a {
+                                        border: none;
+                                        border-radius: 6px;
+                                        font-size: 17px;
+                                        line-height: 48px;
+                                        padding: 0 16px;
+                                        cursor: pointer;
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        white-space: nowrap;
+                                        background-color: #42b72a;
+                                        color: #fff;
+                                        font-weight: 700;
+                                        transition: .2s cubic-bezier(.08, .52, .52, 1) background-color, .2s cubic-bezier(.08, .52, .52, 1) box-shadow, .2s cubic-bezier(.08, .52, .52, 1) transform;
+
+                                        &:hover {
+                                            transition: .2s cubic-bezier(.08, .52, .52, 1) background-color, .2s cubic-bezier(.08, .52, .52, 1) box-shadow, .2s cubic-bezier(.08, .52, .52, 1) transform;
+                                            background-color: #36a420;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .create-page {
+                                margin-top: 28px;
+                                text-align: center;
+                                border-top: none;
+                                color: #1c1e21;
+                                font-size: 14px;
+                                font-weight: 400;
+                                padding-top: 0;
+
+                                a {
+                                    font-size: 14px;
+                                    font-weight: 600;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .mobile-wrapper {
+        display: none;
+
+        * {
+            font-family: "Optimistic" !important;
+        }
+
+        @media (max-width: 980px) {
+            display: block;
+            height: 100vh;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-wrapper {
+            height: 100%;
+            flex: 1;
+
+            .download-app {
+                padding: 10px 12px;
+                background: rgb(255, 255, 255);
+                border-bottom: 1px solid #dddfe2;
+
+                .download-wrapper {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex: 0 1 auto;
+                    flex-direction: row;
+                    position: relative;
+                    min-height: 0px;
+                    min-width: 0px;
+                    width: 100%;
+                    align-items: center;
+                    gap: 8px;
+
+                    .icon {
+                        width: 24px;
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 3px;
+
+                        svg {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    span {
+                        font-weight: 400;
+                        padding: unset;
+                        line-height: 1.3;
+                        font-size: 13px;
+                        color: #1763cf;
+                        white-space: pre-wrap;
+                        overflow-wrap: break-word;
+                    }
+                }
+            }
+
+            .content-app {
+                padding: 10px 16px 14px;
+                width: 100%;
+                height: 100%;
+                min-height: 600px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .language {
+                    cursor: pointer;
+                    text-align: center;
+
+                    span {
+                        color: rgb(93, 108, 123);
+                        font-weight: 400;
+                        display: inline;
+                        font-size: 13.5px;
+                        font-family: "Optimistic 95";
+                        white-space: pre-wrap;
+                        overflow-wrap: break-word;
+                    }
+                }
+
+                .logo {
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    width: 100%;
+
+                    svg {
+                        width: 60px;
+                        height: 60px;
+                        min-width: 60px;
+                        min-height: 60px;
+                        max-width: 60px;
+                        max-height: 60px;
+                    }
+                }
+
+                .form-login {
+                    .form-group {
+                        padding: 10px 16px;
+                        cursor: pointer;
+                        -webkit-tap-highlight-color: transparent;
+                        background: rgba(255, 255, 255, 0.2);
+                        border: 1px solid rgb(221, 226, 232);
+                        border-radius: 18px;
+                        align-items: center;
+                        flex-direction: row;
+                        cursor: pointer;
+
+                        &.error {
+                            border-color: red;
+                        }
+
+                        .input-wrapper {
+                            position: relative;
+                            height: 21px;
+
+                            input {
+                                background: transparent;
+                                color: rgb(10, 19, 23);
+                                font-family: "Optimistic 95";
+                                font-size: 15.2px;
+                                line-height: 1.3;
+                                outline: none;
+                                cursor: pointer;
+                                width: 100%;
+                            }
+
+                            .icon {
+                                width: 18px;
+                                height: 18px;
+                                position: absolute;
+                                top: -8px;
+                                bottom: 0;
+                                right: 0;
+                                display: none;
+
+                                svg {
+                                    width: 100%;
+                                    height: 100%;
+
+                                    path {
+                                        fill: rgb(93, 108, 123);
+                                    }
+                                }
+                            }
+                        }
+
+                        .label-for {
+                            height: 20px;
+                            position: relative;
+                            pointer-events: none;
+
+                            label {
+                                left: 0;
+                                top: 12px;
+                                position: absolute;
+                                color: rgb(93, 108, 123);
+                                font-weight: 400;
+                                display: inline;
+                                font-size: 15.2px;
+                                font-family: "Optimistic 95";
+                                white-space: pre-wrap;
+                                overflow-wrap: break-word;
+                            }
+                        }
+
+                        &:focus-within {
+
+                            border-color: #748695;
+
+                            .label-for {
+                                label {
+                                    top: 0;
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+
+                        &:has(input:not(:placeholder-shown)) {
+
+                            .label-for {
+                                label {
+                                    top: 0;
+                                    font-size: 13px;
+                                }
+                            }
+
+                            .icon {
+                                display: block;
+                            }
+                        }
+
+                        &.password {
+                            margin-top: 12px;
+                            position: relative;
+
+                            .eye {
+                                position: absolute;
+                                cursor: pointer;
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                width: 28px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                right: 8px;
+
+                                .icon {
+                                    width: 28px;
+                                    height: 28px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    &:hover {
+                                        background-color: #0000000d;
+                                    }
+
+                                    svg {
+                                        width: 16px;
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .btn-submit {
+                        width: 100%;
+                        margin-top: 12px;
+                        opacity: 1;
+                        height: 44px;
+                        min-width: 44px;
+                        flex-grow: 1;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        background: rgb(0, 100, 224);
+                        border: 0px solid rgb(10, 19, 23);
+                        border-radius: 22px;
+                        align-items: center;
+                        flex-direction: row;
+                        color: rgb(241, 244, 247);
+                        font-weight: 500;
+                        display: inline;
+                        font-size: 15.2px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        svg {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+
+                    .forgot-password {
+                        margin-top: 12px;
+                        text-align: center;
+
+                        a {
+                            color: rgb(10, 19, 23);
+                            font-weight: 500;
+                            display: inline;
+                            font-size: 15.2px;
+                            font-family: "Optimistic 95";
+                            white-space: pre-wrap;
+                            overflow-wrap: break-word;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .form-create-account {
+                    .btn-create-account {
+                        cursor: pointer;
+                        opacity: 1;
+                        height: 44px;
+                        min-width: 44px;
+                        flex-grow: 1;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        background: rgba(255, 255, 255, 0.2);
+                        border: 1px solid rgb(0, 100, 224);
+                        border-radius: 22px;
+                        display: block;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            color: rgb(0, 100, 224);
+                            font-weight: 500;
+                            font-size: 15.2px;
+                            font-family: "Optimistic 95";
+                            white-space: pre-wrap;
+                            overflow-wrap: break-word;
+                        }
+                    }
+
+                    .logo-bottom {
+                        width: 100%;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+
+                        svg {
+                            width: 60px;
+                            height: min-content;
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .docs {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            li {
+                                pointer-events: none;
+                                padding-left: 4px;
+                                padding-right: 4px;
+                                padding-bottom: 4px;
+                                cursor: pointer;
+                                -webkit-tap-highlight-color: transparent;
+                                color: rgb(99, 120, 138);
+                                display: inline;
+                                font-size: 10px;
+                                white-space: pre-wrap;
+                                overflow-wrap: break-word;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}
