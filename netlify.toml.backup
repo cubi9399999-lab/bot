@@ -1,0 +1,7 @@
+# Minimal Netlify config - use this if the main netlify.toml fails
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"

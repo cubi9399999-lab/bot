@@ -94,9 +94,16 @@ Netlify tự động cung cấp HTTPS và custom domain
 ## 🔍 Troubleshooting
 
 ### Build fails
-- Kiểm tra Node.js version
+- Kiểm tra Node.js version (nên dùng 18.x hoặc 20.x)
 - Đảm bảo tất cả dependencies được liệt kê trong package.json
 - Kiểm tra console logs trong Netlify dashboard
+
+### TOML config error
+- Nếu gặp lỗi "Could not parse configuration file", thử xóa file `netlify.toml` và chỉ dùng `public/_redirects`
+- Netlify sẽ tự động detect Next.js và áp dụng cấu hình mặc định
+
+### Obfuscator issues
+- Nếu build fail do obfuscator, thử disable nó bằng cách set `NEXTJS_OBFUSCATOR_ENABLED = "false"`
 
 ### API routes không hoạt động
 - Đảm bảo API routes được đặt trong `/app/api/` hoặc `/pages/api/`

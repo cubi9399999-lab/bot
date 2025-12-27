@@ -1,58 +1,14 @@
 [build]
-  # Build command
   command = "npm run build"
-
-  # Directory to publish (Next.js outputs to .next by default)
   publish = ".next"
 
-  # Node version (optional, but good to specify)
-  environment = { NODE_VERSION = "18" }
-
 [build.environment]
-  # Environment variables for build (you can set these in Netlify dashboard too)
+  NODE_VERSION = "18"
   NODE_ENV = "production"
 
-  # Obfuscator settings for Netlify
-  NEXTJS_OBFUSCATOR_ENABLED = "true"
-  NEXTJS_OBFUSCATOR_ROTATE_STRING_ARRAY = "true"
-  NEXTJS_OBFUSCATOR_DISABLE_CONSOLE_OUTPUT = "false"
-
-# Redirect rules for SPA (Single Page Application)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-# API routes redirect (if using Next.js API routes)
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-
-# Static assets
-[[redirects]]
-  from = "/_next/static/*"
-  to = "/_next/static/:splat"
-  status = 200
-  headers = { Cache-Control = "public, max-age=31536000, immutable" }
-
-# Security headers
+# Basic security headers
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-
-# Cache static assets
-[[headers]]
-  for = "/_next/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Cache images and fonts
-[[headers]]
-  for = "/public/*.(jpg|jpeg|png|gif|svg|webp|woff|woff2|ttf|eot)"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"

@@ -11,6 +11,7 @@ Project đã được cấu hình sẵn để deploy lên Netlify:
 
 1. **Files cấu hình:**
    - `netlify.toml` - Cấu hình build, redirects, và headers
+   - `netlify.toml.backup` - Version đơn giản nếu file chính có lỗi
    - `public/_redirects` - Client-side routing
    - `DEPLOY-NETLIFY.md` - Hướng dẫn deploy chi tiết
 
